@@ -24,9 +24,10 @@ fn main() {
         println!("{:?}", found);
 
         if word == found {
+            println!("Congratulations!");
             break;
         }
     }
 
-    println!("Done! Gussed {:?} letters.", guessed.len())
+    println!("Gussed {:?} letters.", guessed.len())
 }
